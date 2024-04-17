@@ -26,6 +26,7 @@ spring:
         show_sql: true
   rabbitmq:
     port: 5672
+    host: host.docker.internal
 
 management:
   endpoints:

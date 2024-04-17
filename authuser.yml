@@ -19,6 +19,9 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQLDialect # not needed in hibernate 6+
         show_sql: true
         format_sql: true
+  rabbitmq:
+    port: 5672
+    host: host.docker.internal
 
 logging:
   level:
