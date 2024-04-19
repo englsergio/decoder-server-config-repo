@@ -1,3 +1,8 @@
+ead:
+  service-registry:
+    username: ${APP_SERVICE_REGISTRY_USERNAME}
+    password: ${APP_SERVICE_REGISTRY_PASSWORD}
+
 spring:
   application:
     name: config-server

@@ -6,6 +6,12 @@ server:
 spring:
   application:
     name: notification
+  config:
+    import: 'optional:configserver:'
+  cloud:
+    config:
+      discovery:
+        service-id: config-server
   datasource:
     password: ${PSQL_PASS}
     username: ${PSQL_USER}
