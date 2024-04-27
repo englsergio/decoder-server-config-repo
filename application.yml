@@ -14,3 +14,9 @@ eureka:
       defaultZone: host.docker.internal
   instance:
     hostname: http://serviceregistry:ead123@host.docker.internal:8761/eureka/
+
+DOCKER_HOST: host.docker.internal
+
+auth:
+  exp-ms: 14400000
+  secret-key: 61c7873cf81767e662a89bf1f8108272f6f3fa78a7cd2ec8639576a35334b306

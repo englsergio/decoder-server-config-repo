@@ -12,6 +12,8 @@ spring:
     config:
       discovery:
         service-id: config-server
+      username: configserver
+      password: ead123
   datasource:
     password: ${PSQL_PASS}
     username: ${PSQL_USER}
